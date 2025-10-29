@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+healthcard/
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env + secrets
+*.env
+.env.*
+
+# Logs
+*.log
+
+# Dependency folders
+*.egg-info/
+dist/
+build/
+
+# Coverage / test
+htmlcov/
+.coverage
+.cache/
+.pytest_cache/
+
+# Docker
+*.pid
